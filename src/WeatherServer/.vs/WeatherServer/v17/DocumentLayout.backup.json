@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\weatherserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\weatherserver\\tools\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|solutionrelative:tools\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\weatherserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\weatherserver\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\weatherserver\\weatherserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|solutionrelative:weatherserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\weatherserver\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DADA3D5-534F-4BE8-9E0D-CD0DAE40CFFD}|WeatherServer.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T04:29:08.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\services\\AuthService.cs",
+              "RelativeDocumentMoniker": "services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\services\\AuthService.cs",
+              "RelativeToolTip": "services\\AuthService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:28:40.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\services\\IAuthService.cs",
+              "RelativeToolTip": "services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:28:08.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherServer.csproj",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\WeatherServer.csproj",
+              "RelativeDocumentMoniker": "WeatherServer.csproj",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\WeatherServer.csproj",
+              "RelativeToolTip": "WeatherServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-27T05:27:44.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\Tools\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Tools\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\Tools\\WeatherForecast.cs",
+              "RelativeToolTip": "Tools\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:09:12.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T14:52:24.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

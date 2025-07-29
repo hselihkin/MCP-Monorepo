@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\aspnetcoresseserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\aspnetcoresseserver\\tools\\basic calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|solutionrelative:tools\\basic calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\aspnetcoresseserver\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\aspnetcoresseserver\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\aspnetcoresseserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\aspnetcoresseserver\\basiccalculatorserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|solutionrelative:basiccalculatorserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nikhilesh.balla.CORP\\AppData\\Roaming\\Microsoft\\UserSecrets\\6bfddb83-cf37-427e-8e4d-a59ab680c812\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\aspnetcoresseserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CAC78913-4C51-45DC-8217-DF9701B07ECC}|BasicCalculatorServer.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\services\\AuthService.cs",
+              "RelativeDocumentMoniker": "services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\services\\AuthService.cs",
+              "RelativeToolTip": "services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:39:32.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\services\\IAuthService.cs",
+              "RelativeToolTip": "services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:39:14.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T05:06:53.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasicCalculatorServer.csproj",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\BasicCalculatorServer.csproj",
+              "RelativeDocumentMoniker": "BasicCalculatorServer.csproj",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\BasicCalculatorServer.csproj",
+              "RelativeToolTip": "BasicCalculatorServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-17T05:20:06.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T05:09:07.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T05:08:46.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Basic Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\Tools\\Basic Calculator.cs",
+              "RelativeDocumentMoniker": "Tools\\Basic Calculator.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\Tools\\Basic Calculator.cs",
+              "RelativeToolTip": "Tools\\Basic Calculator.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T05:00:49.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\AppData\\Roaming\\Microsoft\\UserSecrets\\6bfddb83-cf37-427e-8e4d-a59ab680c812\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\6bfddb83-cf37-427e-8e4d-a59ab680c812\\secrets.json",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\AppData\\Roaming\\Microsoft\\UserSecrets\\6bfddb83-cf37-427e-8e4d-a59ab680c812\\secrets.json",
+              "RelativeToolTip": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\6bfddb83-cf37-427e-8e4d-a59ab680c812\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T06:20:28.697Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

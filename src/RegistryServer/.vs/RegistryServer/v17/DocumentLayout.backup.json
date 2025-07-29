@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\tools\\servertools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:tools\\servertools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\services\\serverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:services\\serverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\WeatherServer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\services\\iauthservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:services\\iauthservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\services\\iserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:services\\iserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\tools\\authtools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:tools\\authtools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\models\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:models\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\migrations\\20250618105544_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:migrations\\20250618105544_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|c:\\users\\nikhilesh.balla.corp\\onedrive - aveva solutions limited\\registryserver\\registryserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DE866252-1950-462B-B8A4-15E69B57442A}|RegistryServer.csproj|solutionrelative:registryserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Models\\Server.cs",
+              "RelativeDocumentMoniker": "Models\\Server.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Models\\Server.cs",
+              "RelativeToolTip": "Models\\Server.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:36:09.112Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T10:08:55.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthTools.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Tools\\AuthTools.cs",
+              "RelativeDocumentMoniker": "Tools\\AuthTools.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Tools\\AuthTools.cs",
+              "RelativeToolTip": "Tools\\AuthTools.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T10:14:04.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServerTools.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Tools\\ServerTools.cs",
+              "RelativeDocumentMoniker": "Tools\\ServerTools.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Tools\\ServerTools.cs",
+              "RelativeToolTip": "Tools\\ServerTools.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwF8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:15.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServerService.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Services\\ServerService.cs",
+              "RelativeDocumentMoniker": "Services\\ServerService.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Services\\ServerService.cs",
+              "RelativeToolTip": "Services\\ServerService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowGAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:44:43.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Services\\IAuthService.cs.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Services\\IAuthService.cs.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T10:12:11.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IServerService.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Services\\IServerService.cs",
+              "RelativeDocumentMoniker": "Services\\IServerService.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Services\\IServerService.cs",
+              "RelativeToolTip": "Services\\IServerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T10:11:16.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:24:37.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-29T04:47:53.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherServer.csproj",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\WeatherServer.csproj",
+              "RelativeDocumentMoniker": "..\\WeatherServer\\WeatherServer.csproj",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\WeatherServer.csproj",
+              "RelativeToolTip": "..\\WeatherServer\\WeatherServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-28T04:23:34.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T09:56:52.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T10:12:47.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250618105544_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Migrations\\20250618105544_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250618105544_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\Migrations\\20250618105544_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250618105544_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T07:27:01.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistryServer.csproj",
+              "DocumentMoniker": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\RegistryServer.csproj",
+              "RelativeDocumentMoniker": "RegistryServer.csproj",
+              "ToolTip": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\RegistryServer.csproj",
+              "RelativeToolTip": "RegistryServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-18T07:24:52.825Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

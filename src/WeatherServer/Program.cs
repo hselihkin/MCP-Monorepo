@@ -1,0 +1,249 @@
+using Azure.AI.OpenAI;
+using ModelContextProtocol.Client;
+using ModelContextProtocol.Protocol;
+using OpenAI.Chat;
+using System.ClientModel;
+using System.Text.Json;
+using WeatherServer.services;
+using WeatherServer.Tools;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddMcpServer()
+    .WithHttpTransport()
+    .WithTools<WeatherForecast>();
+
+// builder.Services.AddScoped<IAuthService, AuthService>();
+
+var configuration = new ConfigurationBuilder()
+    .AddUserSecrets<Program>()
+    .Build();
+
+Console.WriteLine("Please Select Server Mode\nSERVER MODE: 0\nCLIENT MODE: 1");
+var mode = Console.ReadLine();
+
+if (mode == "1")
+{
+    Uri Endpoint = new Uri(configuration["CURRENT_ENDPOINT"]);
+    string serverName = "Weather Forecast";
+    string serverDesc = "This server can be used to find weather condition at a particular latitude and longitude";
+    var tools = new List<string> { "GetWeatherForecast" };
+    var argumentsData = new Dictionary<string, Dictionary<string, string>>
+    {
+        ["GetWeatherForecast"] = new Dictionary<string, string>
+        {
+            ["latitude"] = "double",
+            ["longitude"] = "double"
+        }
+    };
+
+    var clientTransport = new SseClientTransport(new SseClientTransportOptions
+    {
+        Endpoint = new Uri(configuration["REGISTRY_SERVER_ENDPOINT"]),
+    });
+
+    var regClient = await McpClientFactory.CreateAsync(clientTransport);
+
+    //------------------------------------------------------------------------------------------------------------------
+
+    Console.WriteLine("Enter the value based on mode of operation");
+    Console.WriteLine("Login: 0");
+    Console.WriteLine("Register: 1");
+    mode = Console.ReadLine();
+
+    Console.WriteLine("UserName: ");
+    string username = Console.ReadLine();
+    Console.WriteLine("Password: ");
+    string pwd = Console.ReadLine();
+
+    string role = string.Empty;
+    if (mode == "1")
+    {
+        Console.WriteLine("Role(admin, math, geo): ");
+        role = Console.ReadLine();
+
+        var regArguments = new Dictionary<string, object?>
+        {
+            { "username", username },
+            { "password", pwd },
+            { "role", role },
+        };
+
+        var regResponse = await regClient.CallToolAsync("Register", regArguments);
+        Console.WriteLine(((TextContentBlock)regResponse.Content[0]).Text);
+    }
+
+    var authArguments = new Dictionary<string, object?>
+    {
+        { "username", username },
+        { "password", pwd }
+    };
+
+    var authResponse = await regClient.CallToolAsync("Login", authArguments);
+    string token = ((TextContentBlock)authResponse.Content[0]).Text;
+
+    //------------------------------------------------------------------------------------------------------------------
+    var available_tools = await regClient.ListToolsAsync();
+
+    var toolInfoForPrompt = new System.Text.StringBuilder();
+    toolInfoForPrompt.AppendLine("--- AVAILABLE TOOLS AND THEIR SCHEMAS ---");
+    foreach (var tool in available_tools)
+    {
+        string rawSchemaJson = tool.JsonSchema.GetRawText();
+        using var jsonDoc = JsonDocument.Parse(rawSchemaJson);
+        string formattedSchema = JsonSerializer.Serialize(jsonDoc.RootElement, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+
+        toolInfoForPrompt.AppendLine($"Tool Name: {tool.Name}");
+        toolInfoForPrompt.AppendLine($"Description: {tool.Description}");
+        toolInfoForPrompt.AppendLine("Schema:");
+        toolInfoForPrompt.AppendLine(formattedSchema);
+        toolInfoForPrompt.AppendLine("-----------------------------------------");
+    }
+
+    //--------------------------------------------------------------------------------------------------------------------
+
+    Console.WriteLine("Client Started!!!");
+    Console.WriteLine("type \"quit\" to exit\n");
+
+    var deploymentName = configuration["AZURE_OPENAI_DEPLOYMENT"];
+    var endpoint = configuration["AZURE_OPENAI_ENDPOINT"];
+    var key = configuration["AZURE_OPENAI_KEY"];
+
+    var client = new AzureOpenAIClient(
+            new Uri(endpoint),
+            new ApiKeyCredential(key)
+            );
+
+    var chatClient = client.GetChatClient(deploymentName);
+
+    var serverDetailsForPrompt = new Dictionary<string, object?>
+    {
+        ["Endpoint"] = Endpoint.ToString(),
+        ["serverName"] = serverName,
+        ["tools"] = tools,
+        ["argumentsJson"] = JsonSerializer.Serialize(argumentsData),
+        ["serverDesc"] = serverDesc,
+        ["token"] = token,
+    };
+    string serverDetailsJson = JsonSerializer.Serialize(serverDetailsForPrompt, new JsonSerializerOptions { WriteIndented = true });
+
+    string SYS_PROMPT = $"""
+    You are an assistant that performs database operations. You MUST follow all instructions and schemas precisely.
+
+    {toolInfoForPrompt}
+
+    You must use the below server details data for the tool call's arguments without omitting or changing any fields, especially the 'arguments' field.
+
+    ---BEGIN SERVER DETAILS FOR TOOL CALL---
+    {serverDetailsJson}
+    ---END SERVER DETAILS FOR TOOL CALL---
+    """;
+
+    var messages = new List<ChatMessage>();
+    messages.Add(new SystemChatMessage(SYS_PROMPT));
+    while (true)
+    {
+        Console.WriteLine("Query: ");
+        var query = Console.ReadLine();
+
+        if (string.IsNullOrWhiteSpace(query) || query.ToLower() == "quit")
+        {
+            break;
+        }
+
+        messages.Add(new UserChatMessage(query));
+
+        try
+        {
+            var chatCompletionOptions = new ChatCompletionOptions
+            {
+                Temperature = 0.1f,
+            };
+
+            foreach (var tool in available_tools)
+            {
+                string rawSchemaJson = tool.JsonSchema.GetRawText();
+                var cleanedSchema = PrepareFunctionSchema(rawSchemaJson);
+                ChatTool t = ChatTool.CreateFunctionTool(
+                    functionName: tool.Name,
+                    functionDescription: tool.Description,
+                    functionParameters: cleanedSchema
+                );
+                chatCompletionOptions.Tools.Add(t);
+            }
+
+            var completion = await chatClient.CompleteChatAsync(messages, chatCompletionOptions);
+
+            while (completion.Value.ToolCalls.Count > 0)
+            {
+                messages.Add(new AssistantChatMessage(completion.Value));
+                for (int i = 0; i < completion.Value.ToolCalls.Count; i++)
+                {
+                    string tool_name = completion.Value.ToolCalls[i].FunctionName;
+
+                    var tool_args = completion.Value.ToolCalls[i].FunctionArguments;
+                    string argsJson = tool_args.ToString();
+                    var argsDict = JsonSerializer.Deserialize<Dictionary<string, object?>>(argsJson);
+
+                    Console.WriteLine($"Tool: {tool_name}\nArgs: {argsJson}");
+
+                    var result = await regClient.CallToolAsync(
+                        tool_name,
+                        argsDict
+                    );
+
+                    messages.Add(new ToolChatMessage(
+                                    toolCallId: completion.Value.ToolCalls[i].Id,
+                                    content: ((TextContentBlock)result.Content[0]).Text
+                                ));
+                }
+
+                completion = await chatClient.CompleteChatAsync(messages, chatCompletionOptions);
+            }
+
+            var response = completion.Value.Content[0].Text;
+            messages.Add(new AssistantChatMessage(response));
+
+            Console.WriteLine($"\nResponse: \n{response}\n");
+            Console.WriteLine(new string('-', 50));
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+}
+
+//--------------------------------------------------------------------------------------------------------------------
+
+static BinaryData PrepareFunctionSchema(string rawSchemaJson)
+{
+    // Parse the original schema
+    using JsonDocument doc = JsonDocument.Parse(rawSchemaJson);
+    var root = doc.RootElement;
+
+    // Create a new in-memory JSON object
+    using var output = new MemoryStream();
+    using var writer = new Utf8JsonWriter(output, new JsonWriterOptions { Indented = true });
+
+    writer.WriteStartObject();
+
+    // Iterate over the top-level elements of the schema (like "type", "properties", "required")
+    foreach (var property in root.EnumerateObject())
+    {
+        // This check is no longer needed and should be removed.
+        // We will now write all properties, including "arguments", as they are.
+        property.WriteTo(writer);
+    }
+
+    writer.WriteEndObject();
+    writer.Flush();
+    return BinaryData.FromBytes(output.ToArray());
+}
+
+//-----------------------------------------------------------------------------------------------------------------
+
+var app = builder.Build();
+app.MapMcp();
+app.Run();
