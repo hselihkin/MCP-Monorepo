@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hSMb3dwkhTQ=",
+  "dgSpecHash": "Vrztn9IXWng=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\AspNetCoreSseServer\\BasicCalculatorServer.csproj",
+  "projectFilePath": "C:\\MCP_Monorepo\\src\\AspNetCoreSseServer\\BasicCalculatorServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikhilesh.balla.CORP\\.nuget\\packages\\azure.ai.openai\\2.2.0-beta.4\\azure.ai.openai.2.2.0-beta.4.nupkg.sha512",
     "C:\\Users\\nikhilesh.balla.CORP\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",

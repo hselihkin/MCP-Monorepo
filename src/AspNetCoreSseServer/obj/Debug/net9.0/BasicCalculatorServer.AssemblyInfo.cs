@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasicCalculatorServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a29e49fb7c8893c598a406649b36d5b1e10f4c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasicCalculatorServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasicCalculatorServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

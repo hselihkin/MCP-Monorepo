@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\McpHost\\McpHost.csproj": {}
+    "C:\\MCP_Monorepo\\src\\McpHost\\McpHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\McpHost\\McpHost.csproj": {
+    "C:\\MCP_Monorepo\\src\\McpHost\\McpHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\McpHost\\McpHost.csproj",
+        "projectUniqueName": "C:\\MCP_Monorepo\\src\\McpHost\\McpHost.csproj",
         "projectName": "McpHost",
-        "projectPath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\McpHost\\McpHost.csproj",
+        "projectPath": "C:\\MCP_Monorepo\\src\\McpHost\\McpHost.csproj",
         "packagesPath": "C:\\Users\\nikhilesh.balla.CORP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\McpHost\\obj\\",
+        "outputPath": "C:\\MCP_Monorepo\\src\\McpHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

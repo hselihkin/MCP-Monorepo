@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aj27EHPQPfo=",
+  "dgSpecHash": "qUQL+E+7EtA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\RegistryServer.csproj",
+  "projectFilePath": "C:\\MCP_Monorepo\\src\\RegistryServer\\RegistryServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikhilesh.balla.CORP\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nikhilesh.balla.CORP\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

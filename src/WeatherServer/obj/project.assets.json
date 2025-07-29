@@ -5147,11 +5147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\WeatherServer.csproj",
+      "projectUniqueName": "C:\\MCP_Monorepo\\src\\WeatherServer\\WeatherServer.csproj",
       "projectName": "WeatherServer",
-      "projectPath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\WeatherServer.csproj",
+      "projectPath": "C:\\MCP_Monorepo\\src\\WeatherServer\\WeatherServer.csproj",
       "packagesPath": "C:\\Users\\nikhilesh.balla.CORP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\WeatherServer\\obj\\",
+      "outputPath": "C:\\MCP_Monorepo\\src\\WeatherServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

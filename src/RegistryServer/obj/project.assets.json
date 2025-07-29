@@ -4763,11 +4763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\RegistryServer.csproj",
+      "projectUniqueName": "C:\\MCP_Monorepo\\src\\RegistryServer\\RegistryServer.csproj",
       "projectName": "RegistryServer",
-      "projectPath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\RegistryServer.csproj",
+      "projectPath": "C:\\MCP_Monorepo\\src\\RegistryServer\\RegistryServer.csproj",
       "packagesPath": "C:\\Users\\nikhilesh.balla.CORP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikhilesh.balla.CORP\\OneDrive - AVEVA Solutions Limited\\RegistryServer\\obj\\",
+      "outputPath": "C:\\MCP_Monorepo\\src\\RegistryServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
