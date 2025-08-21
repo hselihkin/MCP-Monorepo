@@ -15,5 +15,7 @@ The primary goal of this project is to create a sophisticated AI assistant that 
 
 # Technologies Used
 Backend: ASP.NET Core, C#
+
 Design Pattern: MCP (Multi-agent Convergent Protocol)
+
 Cloud Platform: Microsoft Azure
